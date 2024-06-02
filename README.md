@@ -1,6 +1,23 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
+First, do the setup of Nextjs with Tailwind css:
+--Teminal--
+npx create-next-app@latest my-project --typescript --eslint
+
+npm install -D tailwindcss postcss autoprefixer
+
+then do the changes in the tailwind.config.js:
+content: [
+    "./app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./pages/**/*.{js,ts,jsx,tsx,mdx}",
+    "./components/**/*.{js,ts,jsx,tsx,mdx}",
+    ],
+
+Add the Tailwind directives to your CSS(globalis.css):
+ @tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 First, run the development server:
 
