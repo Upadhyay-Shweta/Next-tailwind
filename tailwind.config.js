@@ -8,9 +8,7 @@ module.exports = {
     extend: {},
   },
   plugins: [],
-
-  images: {
-    remotePatterns: ['https://fakestoreapi.com/image/*'],
-},
 }
+
+
 
